@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.todo-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.todo-list-container p {
+    text-align: center;
+    color: #888;
+}
+
+.todo-list-container .todo-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.todo-list-container .todo-item:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 600px) {
+    .todo-list-container {
+        padding: 15px;
+    }
+}
